@@ -1,13 +1,32 @@
-# Dataset files
-data/
+# Data files (raw and heavy datasets)
+data/*.tsv
+data/*.csv
+data/*.gz
+data/*.parquet
+data/*.tar*
+data/*.zip
 
-# Python cache
+# Keep data directory tracked with its README/keep file
+!data/README.md
+!data/.gitkeep
+
+# Python artifacts
 __pycache__/
-*.pyc
-
-# Jupyter checkpoints
-.ipynb_checkpoints/
-
-# Virtual environments
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
+ENV/
 .venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

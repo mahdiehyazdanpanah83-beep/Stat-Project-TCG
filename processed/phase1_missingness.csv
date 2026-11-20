@@ -1,0 +1,9 @@
+modality,variable,N,missing_n,missing_percent
+Clinical patient-level,age_years,1084,0,0.0
+Clinical patient-level,stage_raw,1084,0,0.0
+Clinical patient-level,stage_group,1084,28,2.5830258302583027
+Molecular patient-level,A1BG_RNA,944,0,0.0
+Merged cohort,age_years,936,0,0.0
+Merged cohort,stage_raw,936,0,0.0
+Merged cohort,stage_group,936,25,2.6709401709401708
+Merged cohort,A1BG_RNA,936,0,0.0

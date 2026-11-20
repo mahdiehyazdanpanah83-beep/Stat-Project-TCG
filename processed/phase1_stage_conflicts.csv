@@ -1,0 +1,172 @@
+patient_id,recorded_stage_values,n_distinct_stage,recorded_stage_groups,cross_group_conflict
+TCGA-3C-AAAU,"[""'--"", 'Stage X']",2,[],False
+TCGA-5L-AAT0,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-5L-AAT1,"['Stage IIA', 'Stage IV']",2,"['Advanced', 'Early']",True
+TCGA-A1-A0SP,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A2-A04P,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-A2-A04V,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A2-A04Y,"['Stage IIA', 'Stage IIB']",2,['Early'],False
+TCGA-A2-A0CK,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-A2-A0CM,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A2-A0EW,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-A2-A0SW,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-A2-A0SX,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-A2-A0YC,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A2-A0YJ,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-A2-A25A,"['Stage 0', 'Stage IIA']",2,['Early'],False
+TCGA-A2-A25B,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A2-A25E,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-A2-A3XS,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-A2-A3XU,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A2-A3XY,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A7-A0CD,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-A7-A13E,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A7-A13G,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A7-A13H,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A7-A26E,"[""'--"", 'Stage IA', 'Stage IIIA']",3,"['Advanced', 'Early']",True
+TCGA-A7-A26F,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-A7-A26H,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A7-A26I,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A7-A2KD,"['Stage 0', 'Stage IIIA']",2,['Advanced'],False
+TCGA-A7-A3J1,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-A7-A3RF,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A7-A425,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-A7-A426,"['Stage I', 'Stage IIIC']",2,"['Advanced', 'Early']",True
+TCGA-A7-A5ZX,"['Stage IA', 'Stage IIIC']",2,"['Advanced', 'Early']",True
+TCGA-A8-A06T,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-A8-A06U,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A8-A06Y,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A8-A07E,"[""'--"", 'Stage X']",2,[],False
+TCGA-A8-A084,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-A8-A08F,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-A8-A08O,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-A8-A08S,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A8-A08T,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-A8-A08X,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-A8-A091,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A8-A093,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A8-A09C,"[""'--"", 'Stage X']",2,[],False
+TCGA-A8-A09E,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-A8-A09I,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-A8-A09K,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AC-A2B8,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AC-A2FE,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-AC-A2FM,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AC-A2QJ,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-AC-A3W5,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AC-A3W6,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AC-A5XS,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AC-A62X,"['Stage 0is', 'Stage IIA']",2,['Early'],False
+TCGA-AO-A03N,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AO-A03P,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AO-A03U,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-AO-A0J9,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-AO-A0JA,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-AO-A0JI,"['Stage IA', 'Stage IIA']",2,['Early'],False
+TCGA-AO-A126,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AO-A1KT,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AQ-A0Y5,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AQ-A54N,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AQ-A54O,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AQ-A7U7,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AR-A0TW,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AR-A0TY,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AR-A0U2,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AR-A1AH,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AR-A1AI,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AR-A1AM,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AR-A1AR,"[""'--"", 'Stage III', 'Stage IIIA']",3,['Advanced'],False
+TCGA-AR-A24L,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AR-A24O,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-AR-A256,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AR-A2LE,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-AR-A2LH,"[""'--"", 'Stage III']",2,['Advanced'],False
+TCGA-AR-A2LK,"[""'--"", 'Stage III']",2,['Advanced'],False
+TCGA-AR-A2LL,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-AR-A2LR,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-AR-A5QM,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-AR-A5QQ,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-B6-A0I1,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-B6-A0I6,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-B6-A0I8,"[""'--"", 'Stage II', 'Stage X']",3,['Early'],False
+TCGA-B6-A0IB,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-B6-A0IE,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-B6-A0IK,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-B6-A0IN,"[""'--"", 'Stage X']",2,[],False
+TCGA-B6-A0RH,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-B6-A0RI,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-B6-A0RS,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-B6-A0RU,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-B6-A0WT,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-B6-A0WW,"[""'--"", 'Stage X']",2,[],False
+TCGA-B6-A0WX,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-B6-A0WY,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-B6-A0WZ,"[""'--"", 'Stage II']",2,['Early'],False
+TCGA-B6-A0X4,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-B6-A0X5,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-B6-A0X7,"[""'--"", 'Stage X']",2,[],False
+TCGA-B6-A2IU,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-B6-A3ZX,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-B6-A402,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-B6-A409,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-BH-A0BQ,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-BH-A0C1,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-BH-A0C3,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-BH-A0DO,"['Stage I', 'Stage IIA']",2,['Early'],False
+TCGA-BH-A0EA,"['Stage I', 'Stage IIA']",2,['Early'],False
+TCGA-BH-A18H,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-BH-A1EY,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-BH-A1F5,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-BH-A8FY,"[""'--"", 'Stage IA']",2,['Early'],False
+TCGA-C8-A12Q,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-C8-A137,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-C8-A1HL,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-C8-A3M7,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-D8-A146,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-D8-A1XC,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-D8-A73W,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-E2-A10A,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-E2-A10B,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-E2-A14R,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-E2-A14Z,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-E2-A152,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-E2-A158,"['Stage I', 'Stage IIA']",2,['Early'],False
+TCGA-E2-A15O,"[""'--"", 'Stage I', 'Stage IIA']",3,['Early'],False
+TCGA-E2-A1IE,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-E2-A1L7,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-E2-A1L8,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-E2-A1LE,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-E2-A1LK,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-E2-A1LL,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-E2-A2P5,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-E2-A572,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-E9-A1N6,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-E9-A1NF,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-E9-A226,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-E9-A243,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-E9-A2JS,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-EW-A1J5,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-EW-A1P0,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-EW-A1P1,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-EW-A1P3,"['Stage I', 'Stage IIA']",2,['Early'],False
+TCGA-EW-A1P7,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-EW-A1P8,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-GM-A2D9,"[""'--"", 'Stage I']",2,['Early'],False
+TCGA-GM-A2DA,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-GM-A2DO,"['Stage 0', 'Stage I']",2,['Early'],False
+TCGA-HN-A2OB,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-LD-A74U,"[""'--"", 'Stage IIIC']",2,['Advanced'],False
+TCGA-LL-A440,"['Stage 0', 'Stage IA']",2,['Early'],False
+TCGA-LL-A442,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-LL-A50Y,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-LL-A5YM,"[""'--"", 'Stage IIIB']",2,['Advanced'],False
+TCGA-LL-A5YP,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-LL-A73Z,"[""'--"", 'Stage IV']",2,['Advanced'],False
+TCGA-LQ-A4E4,"[""'--"", 'Stage IIIA']",2,['Advanced'],False
+TCGA-OL-A5RU,"['Stage IA', 'Stage IIA']",2,['Early'],False
+TCGA-OL-A97C,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-S3-AA12,"['Stage II', 'Stage IIIA']",2,"['Advanced', 'Early']",True
+TCGA-S3-AA17,"['Stage 0', 'Stage IIB']",2,['Early'],False
+TCGA-W8-A86G,"[""'--"", 'Stage IIA']",2,['Early'],False
+TCGA-WT-AB41,"[""'--"", 'Stage IIB']",2,['Early'],False
+TCGA-Z7-A8R5,"[""'--"", 'Stage IIIA']",2,['Advanced'],False

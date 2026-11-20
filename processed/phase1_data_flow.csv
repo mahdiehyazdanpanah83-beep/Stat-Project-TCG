@@ -1,0 +1,4 @@
+Dataset / stage,Source records,Records retained,Unique patients
+Clinical,5506,5506,1084
+Molecular,950,950,944
+Multimodal inner-join cohort,936,936,936
